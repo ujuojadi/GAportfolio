@@ -139,7 +139,7 @@ function ControlledCarousel() {
                         Graphic Designs
                       </span>
                     </h1>
-                    <p class="mt-3">Projects on Graphic designs using Canva </p>{" "}
+                    <p class="mt-3">Projects on varoious Graphic designs</p>{" "}
                   </div>
                 </Col>
                 <Col class="col-lg-6">
