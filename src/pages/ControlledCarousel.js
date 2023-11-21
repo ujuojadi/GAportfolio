@@ -8,7 +8,7 @@ import {
   ContainerFluid,
 } from "react-bootstrap";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
-import image3 from "../images/bleh.jpg";
+import image3 from "../images/plant.jpg";
 import ecommerce from "../images/ecommerce.png";
 import iconstruct from "../images/iconstruct.png";
 import { Link } from "react-router-dom";
