@@ -93,7 +93,7 @@ function ControlledCarousel() {
                 <Col class="col-lg-6">
                   <div style={{ paddingLeft: "80px", marginBottom: "90px" }}>
                     <h1>
-                      <span>Iconstruct Engineering Firm</span>
+                      <span>Simple Web Page</span>
                     </h1>
                     <p class="mt-3">
                       A web application for an engineering firm to book
