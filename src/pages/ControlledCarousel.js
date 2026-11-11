@@ -263,7 +263,7 @@ function ControlledCarousel() {
             rel="noopener noreferrer"
           >
             <img
-              src="https://github.com/ujuojadi/adlantique/blob/master/adimage/adimge.jpg"
+              src="https://github.com/ujuojadi/GAportfolio/blob/master/src/images/adimge.jpg"
               alt="Adlantique advertising website"
               style={{
                 width: "100%",
