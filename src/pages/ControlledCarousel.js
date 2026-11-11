@@ -183,105 +183,100 @@ function ControlledCarousel() {
             </Container>
           </Carousel.Item>
 
-          {/* PROJECT 4: ADLANTIQUE */}
-          <Carousel.Item>
-            <Container>
-              <Row className="align-items-center">
-                <Col lg={6}>
-                  <div
-                    style={{
-                      paddingLeft: "80px",
-                      marginBottom: "40px",
-                    }}
-                  >
-                    <h1>
-                      <span
-                        style={{
-                          borderBottom: "2px solid white",
-                        }}
-                      >
-                        Adlantique
-                      </span>
-                    </h1>
+         
+{/* PROJECT 4: ADLANTIQUE */}
+<Carousel.Item>
+  <Container>
+    <Row className="align-items-center">
+      <Col lg={6}>
+        <div
+          style={{
+            paddingLeft: "80px",
+            marginBottom: "40px",
+          }}
+        >
+          <h1>
+            <span
+              style={{
+                borderBottom: "2px solid white",
+              }}
+            >
+              Adlantique
+            </span>
+          </h1>
 
-                    <h5
-                      className="mt-3"
-                      style={{ color: "#f0d9b5" }}
-                    >
-                      Advertising & Business Platform
-                    </h5>
+          <h5
+            className="mt-3"
+            style={{ color: "#f0d9b5" }}
+          >
+            Advertising & Business Platform
+          </h5>
 
-                    <p className="mt-3">
-                      A responsive advertising and
-                      business services website designed
-                      to help businesses explore
-                      advertising solutions and
-                      promotional packages.
-                    </p>
+          <p className="mt-3">
+            A responsive advertising and business
+            services website designed to help
+            businesses explore advertising solutions
+            and promotional packages.
+          </p>
 
-                    <p>
-                      Built using HTML, CSS, JavaScript,
-                      and Bootstrap, featuring service
-                      listings, business packages,
-                      interactive elements, and user
-                      registration interfaces.
-                    </p>
+          <p>
+            Built using HTML, CSS, JavaScript,
+            and Bootstrap, featuring service
+            listings, business packages,
+            interactive elements, and user
+            registration interfaces.
+          </p>
 
-                    <a
-                      href="https://github.com/ujuojadi/adlantique"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      style={{
-                        display: "inline-block",
-                        marginTop: "15px",
-                        padding: "12px 24px",
-                        backgroundColor: "#ffffff",
-                        color: "#222222",
-                        textDecoration: "none",
-                        borderRadius: "8px",
-                        fontWeight: "bold",
-                      }}
-                    >
-                      View Project{" "}
-                      <BsFillArrowRightCircleFill />
-                    </a>
-                  </div>
-                </Col>
+          {/* LIVE WEBSITE BUTTON */}
+          <a
+            href="https://adlantique.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              display: "inline-block",
+              marginTop: "15px",
+              padding: "12px 24px",
+              backgroundColor: "#ffffff",
+              color: "#222222",
+              textDecoration: "none",
+              borderRadius: "8px",
+              fontWeight: "bold",
+            }}
+          >
+            Visit Live Website{" "}
+            <BsFillArrowRightCircleFill />
+          </a>
+        </div>
+      </Col>
 
-                <Col lg={6}>
-                  <div
-                    style={{
-                      padding: "20px",
-                      textAlign: "center",
-                    }}
-                  >
-                    <a
-                      href="https://github.com/ujuojadi/adlantique"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <img
-                        src="https://raw.githubusercontent.com/ujuojadi/adlantique/master/adimage/bannerad.png"
-                        alt="Adlantique advertising website"
-                        style={{
-                          width: "100%",
-                          maxWidth: "500px",
-                          height: "auto",
-                          maxHeight: "320px",
-                          objectFit: "contain",
-                          borderRadius: "12px",
-                        }}
-                      />
-                    </a>
-                  </div>
-                </Col>
-              </Row>
-            </Container>
-          </Carousel.Item>
-        </Carousel>
-      </div>
-    </>
-  );
-}
-
-export default ControlledCarousel;
+      <Col lg={6}>
+        <div
+          style={{
+            padding: "20px",
+            textAlign: "center",
+          }}
+        >
+          {/* CLICKABLE PROJECT IMAGE */}
+          <a
+            href="https://adlantique.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="https://raw.githubusercontent.com/ujuojadi/adlantique/master/adimage/bannerad.png"
+              alt="Adlantique advertising website"
+              style={{
+                width: "100%",
+                maxWidth: "500px",
+                height: "auto",
+                maxHeight: "320px",
+                objectFit: "contain",
+                borderRadius: "12px",
+              }}
+            />
+          </a>
+        </div>
+      </Col>
+    </Row>
+  </Container>
+</Carousel.Item>
