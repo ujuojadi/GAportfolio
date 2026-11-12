@@ -280,3 +280,11 @@ function ControlledCarousel() {
     </Row>
   </Container>
 </Carousel.Item>
+</Carousel>
+      </div>
+    </>
+  );
+}
+
+export default ControlledCarousel;
+        <
